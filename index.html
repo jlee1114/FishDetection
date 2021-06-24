@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+    <div class = "main">
+        <h1>Aqualink youtube feed</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/oPGH65HrseA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <canvas></canvas>
+        <button id = "snap">Take Screenshot</button>
+    </div>
+</body>
+<script>
+    var video = document.querySelector('video');
+    var canvas = document.querySelector('canvas');
+    var contest = canvas.getContext('2d');
+    var w, h, ratio;
+</script>
+</html>
+
